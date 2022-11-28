@@ -19,6 +19,20 @@ Install required gems and set up database
 $ bundle install
 ```
 
+## Setup the Demo REDCap project
+
+Find the data dictionary for the demo REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
+Use REDCap functionality to import.
+
+Find the instrument mappings for REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
+Use REDCap functionality to import.
+
+Mark repeatable instruments 'lib/setup/data/ Repeatable instruments and events.png'
+Use REDCap functionality to set in the design UI.
+
+Find the data for the demo REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
+Use REDCap functionality to import.
+
 ### Create Database
 
 ```sql
@@ -30,8 +44,8 @@ ALTER USER redcap2omop_demo SUPERUSER
 
 ### Install redcap2omp
 
-The application allows to import Redcap data and map it to [OMOP](https://www.ohdsi.org/data-standardization/the-common-data-model/) structures for data analysis. 
-In order to set it up, run the initializer:
+The application allows to import REDcap data and map it to [OMOP](https://www.ohdsi.org/data-standardization/the-common-data-model/) structures for data analysis. 
+In order to set it up, run the initializer (note: this has already been done for this repository but is here for documentation purposes):
 ```bash
 $ rails g redcap2omop:install
 ```
@@ -55,6 +69,8 @@ $ bundle exec rake redcap2omop:setup:omop_tables
 select count(*)
 from redcap2omop_redcap_projects
 ```
+
+Make sure to replace '?' with 
 
 ```bash
 $ REDCAP2_OMOP_API_TOKEN='?' bundle exec rake redcap2omop:setup:demo:project
