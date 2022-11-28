@@ -19,6 +19,7 @@ Install required gems and set up database
 $ bundle install
 
 ### Create Database
+
 ```sql
 CREATE DATABASE redcap2omop_demo_2;
 CREATE USER redcap2omop_demo_2 WITH CREATEDB PASSWORD 'redcap2omop_demo_2';
