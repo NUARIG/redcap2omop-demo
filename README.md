@@ -1,4 +1,4 @@
-## Redcap2Omop Demo Project
+## redcap2omop Demo Project
 
 ## Prerequisites
 
