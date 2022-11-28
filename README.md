@@ -21,16 +21,20 @@ $ bundle install
 ```
 ## Setup the Demo REDCap project
 
-Find the data dictionary for the demo REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
+Find the data dictionary for the demo REDCap project in:
+'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
 Use REDCap functionality to import.
 
-Find the instrument mappings for REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
+Find the instrument mappings for REDCap project in:
+'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
 Use REDCap functionality to import.
 
-Mark repeatable instruments 'lib/setup/data/Repeatable instruments and events.png'
+Mark repeatable instruments based on:
+'lib/setup/data/Repeatable instruments and events.png'
 Use REDCap functionality to set in the design UI.
 
-Find the data for the demo REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
+Find the data for the demo REDCap project in:
+'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
 Use REDCap functionality to import.
 
 ### Create Database
