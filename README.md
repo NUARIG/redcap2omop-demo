@@ -69,7 +69,7 @@ select count(*)
 from redcap2omop_redcap_projects
 ```
 
-Make sure to replace '?' with 
+Make sure to replace '?' with your own REDCap API token.
 
 ```bash
 $ REDCAP2_OMOP_API_TOKEN='?' bundle exec rake redcap2omop:setup:demo:project
