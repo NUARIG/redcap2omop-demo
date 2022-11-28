@@ -18,7 +18,6 @@ Install required gems and set up database
 ```bash
 $ bundle install
 ```
-
 ## Setup the Demo REDCap project
 
 Find the data dictionary for the demo REDCap project in 'lib/setup/data/REDCap2SQLSandbox2Longitudinal_DataDictionary_2022-11-27.csv'
@@ -41,7 +40,6 @@ CREATE USER redcap2omop_demo WITH CREATEDB PASSWORD 'redcap2omop_demo'
 ALTER DATABASE redcap2omop_demo OWNER TO redcap2omop_demo
 ALTER USER redcap2omop_demo SUPERUSER
 ```
-
 ### Install redcap2omp
 
 The application allows to import REDcap data and map it to [OMOP](https://www.ohdsi.org/data-standardization/the-common-data-model/) structures for data analysis. 
@@ -57,7 +55,6 @@ Unzip and copy the vocabulary to /db/migrate/CommonDataModel-5.3.1/PostgreSQL/Vo
 $ bundle exec rake redcap2omop:data:load_omop_vocabulary_tables
 $ bundle exec rake redcap2omop:data:compile_omop_vocabulary_indexes
 ```
-
 ### Setup redcap2omp metadata for the OMOP tables
 
 ```bash
