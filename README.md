@@ -17,6 +17,7 @@
 Install required gems and set up database
 ```bash
 $ bundle install
+```
 
 ### Create Database
 
