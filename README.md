@@ -21,10 +21,10 @@ $ bundle install
 ### Create Database
 
 ```sql
-CREATE DATABASE redcap2omop_demo_2;
-CREATE USER redcap2omop_demo_2 WITH CREATEDB PASSWORD 'redcap2omop_demo_2';
-ALTER DATABASE redcap2omop_demo_2 OWNER TO redcap2omop_demo_2;
-ALTER USER redcap2omop_demo_2 SUPERUSER;
+CREATE DATABASE redcap2omop_demo;
+CREATE USER redcap2omop_demo WITH CREATEDB PASSWORD 'redcap2omop_demo';
+ALTER DATABASE redcap2omop_demo OWNER TO redcap2omop_demo;
+ALTER USER redcap2omop_demo SUPERUSER;
 ```
 
 ### Install redcap2omp
