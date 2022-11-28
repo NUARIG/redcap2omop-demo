@@ -1,5 +1,6 @@
 ## redcap2omop Demo Project
 
+Demo project to use the redcap2omop library/gem.  See here: https://github.com/NUARIG/redcap2omop
 ## Prerequisites
 
 * ruby 3.0.0
